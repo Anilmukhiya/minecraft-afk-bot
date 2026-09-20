@@ -1,0 +1,27 @@
+services:
+  - type: worker
+    name: mukhiya9734-afk-bot
+    runtime: node
+    plan: starter
+
+    buildCommand: npm install
+    startCommand: npm start
+
+    envVars:
+      - key: MC_HOST
+        value: play.oneforall.social
+
+      - key: MC_PORT
+        value: "25565"
+
+      - key: MC_USERNAME
+        value: MUKHIYA9734
+
+      - key: MC_PASSWORD
+        sync: false
+
+      - key: MC_LOGIN_COMMAND
+        value: /login
+
+      - key: MC_VERSION
+        value: false
