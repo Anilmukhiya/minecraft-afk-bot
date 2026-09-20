@@ -1,0 +1,15 @@
+{
+  "name": "mukhiya9734-afk-bot",
+  "version": "1.0.0",
+  "description": "Minecraft AFK bot for Render",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "mineflayer": "^4.39.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
